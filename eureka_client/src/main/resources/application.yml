@@ -6,4 +6,4 @@ spring:
 eureka:
   client:
     service-url:
-      defulatZone: http://localhost:${server.port}/eurka/
+      defulatZone: http://localhost:8761/eureka/
