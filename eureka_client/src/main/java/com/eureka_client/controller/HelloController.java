@@ -12,7 +12,7 @@ public class HelloController {
     @Value("${server.port}")
     String port;
 
-    @RequestMapping("/")
+    @RequestMapping("/hi")
     String home(@RequestParam("name") String name) {
         return "hi " + name + ", i am from port: " + port;
     }

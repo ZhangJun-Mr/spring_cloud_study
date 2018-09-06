@@ -1,6 +1,6 @@
-package com.serviceribbon.controller;
+package com.service_ribbon.controller;
 
-import com.serviceribbon.service.HelloService;
+import com.service_ribbon.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
