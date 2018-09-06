@@ -7,3 +7,16 @@ server:
 spring:
   application:
     name: service-feign
+
+# To disable Hystrix in Feign
+feign:
+  hystrix:
+    enabled: true
+
+# To set thread isolation to SEMAPHORE
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
